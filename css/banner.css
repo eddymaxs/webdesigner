@@ -1,0 +1,85 @@
+/* propriedades do banner , pagina inicial */
+
+#banner {
+  min-height: 500px;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+  background: url("../img/banneroscuro.png");
+}
+/* titulo */
+#banner h1 {
+  font-size: 4.5em;
+  color: white;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 80px;
+}
+
+#banner p {
+  font-size: 2em;
+  color: white;
+  font-size: 35px;
+  font-family: palatino;
+}
+
+.banner-2 {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+.banner-2 span {
+  font-size: 35px;
+  font-family: palatino;
+  font-style: italic;
+}
+
+/*CUOTA*/
+.barra {
+  height: 120px;
+  padding: 10px;
+  color: white;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: #b7905a 3px solid;
+}
+.barra span {
+  font-size: 2.6em;
+  padding-right: 20px;
+}
+
+.barra a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6em;
+  background-color: #b7905a;
+  border-radius: 12px;
+  padding: 6px 12px 6px 12px;
+}
+
+.servicos {
+  border-top: #b7905a 3px solid;
+
+  display: flex;
+  justify-content: center;
+}
+
+.servicos div {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Helvetica, sans-serif;
+  padding: 20px;
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.6em;
+  border-top: #b7905a 3px solid;
+  min-height: 80px;
+  padding-top: 20px;
+}

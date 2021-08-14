@@ -1,0 +1,103 @@
+.banner-1 {
+  background-color: #b7905a;
+  text-align: center;
+  width: 90%;
+  margin: 4% auto;
+  padding: 3% 0;
+}
+.banner-1 span {
+  color: white;
+  font-size: 24px;
+  font-family: Helvetica;
+
+  border: white 3px solid;
+  padding: 5px 0 0 0;
+}
+.banner-2 {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+.banner-2 span {
+  color: #212121;
+  font-size: 35px;
+  font-family: palatino;
+  font-style: italic;
+}
+
+/*MAIN GRID*/
+
+.grid {
+  width: 90%;
+
+  margin: auto;
+  font-family: Helvetica;
+  font-size: 14px;
+
+  display: grid;
+
+  grid-template-rows: auto;
+  grid-template-columns: 60% 40%;
+  grid-gap: 10px;
+
+  grid-template-areas:
+    "valores equipo"
+    "mision equipo"
+    "vision equipo";
+}
+
+.valores {
+  grid-area: valores;
+}
+.mision {
+  grid-area: mision;
+}
+.vision {
+  grid-area: vision;
+}
+.equipo {
+  grid-area: equipo;
+  background: url(../img/equipo.png);
+  margin: 10px;
+  min-height: 400px;
+}
+.grid h2 {
+  margin: 0;
+}
+
+/*CUOTA*/
+.barra {
+  height: 120px;
+  padding: 10px;
+  color: white;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: #b7905a 3px solid;
+}
+
+.barra span {
+  font-size: 2.6em;
+  padding-right: 20px;
+}
+
+.barra a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6em;
+  background-color: #b7905a;
+  border-radius: 12px;
+  padding: 6px 12px 6px 12px;
+}
+
+/*RODAPE*/
+footer {
+  text-align: center;
+  font-size: 1.6em;
+  border-top: #b7905a 3px solid;
+  min-height: 80px;
+  padding-top: 20px;
+}

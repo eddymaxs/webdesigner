@@ -1,0 +1,101 @@
+/* propriedades do banner , pagina inicial */
+
+/* titulo */
+
+.banner-1 {
+  background-color: #b7905a;
+  text-align: center;
+  width: 90%;
+  margin: 4% auto;
+  padding: 3% 0;
+}
+.banner-1 span {
+  color: white;
+  font-size: 24px;
+  font-family: Helvetica;
+
+  border: white 3px solid;
+  padding: 5px;
+}
+.banner-2 {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+.banner-2 span {
+  color: #212121;
+  font-size: 35px;
+  font-family: palatino;
+  font-style: italic;
+}
+
+.container-formulario {
+  width: 40%;
+  margin: 0 auto 3%;
+
+  background-color: #212121;
+  padding: 16px;
+  overflow: hidden;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font: 16px lighter helvetica;
+}
+
+.formulario {
+  text-align: center;
+}
+
+.formulario > div {
+  padding-bottom: 20px;
+}
+.formulario input,
+textarea {
+  font-size: 16px;
+  width: 80%;
+  font-family: ;
+}
+button {
+  color: white;
+  background: #b7905a;
+  padding: 6px 40px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+}
+
+/*CUOTA*/
+.barra {
+  height: 120px;
+  padding: 10px;
+  color: white;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: #b7905a 3px solid;
+}
+.barra span {
+  font-size: 2.6em;
+  padding-right: 20px;
+}
+
+.barra a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6em;
+  background-color: #b7905a;
+  border-radius: 12px;
+  padding: 6px 12px 6px 12px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.6em;
+  border-top: #b7905a 3px solid;
+  min-height: 80px;
+  padding-top: 20px;
+}
